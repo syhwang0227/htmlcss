@@ -1,6 +1,23 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+.iconsp {
+    /* 박스가 된다. */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    /* background-color: aqua; */
+}
+
+.iconsp > span {
+    /* font-size: larger; */
+    font-size: 30px;
+
 }
 
 header {
